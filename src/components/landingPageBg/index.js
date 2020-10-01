@@ -7,8 +7,7 @@ function landingPageBg() {
         <div style={{
             height: '100vh',
             width: "100vw",
-            backgroundImage: `url(${bgImage})`,
-            filter: "blur(7.5px)"
+            backgroundImage: `url(${bgImage})`
           }}></div>
     )
 }

@@ -6,10 +6,10 @@ const useStyles = makeStyles({
     nameButton: {
         background: "transparent",
         border: "none",
-        color: "white"
+        color: "black"
     },
     whiteText: {
-        color: "white"
+        color: "black"
     }
 });
 
@@ -30,14 +30,14 @@ function LandingPage(props) {
                     component="button"
                     className={classes.nameButton}
                     onClick={() => props.handlePageChange("HomeMenu")}>
-                    DANNY THE DM
+                    Danny the DM
                 </Typography>
             </Grid>
             <Grid item xl={12} className={classes.whiteText}>
                 <p>Game Master for Hire</p>
             </Grid>
             <Grid item xl={12} className={classes.whiteText}>
-                <p>Click my name</p>
+                <p>Clicketh Upon Mine Moniker!</p>
             </Grid>
         </Grid >
     )

@@ -68,7 +68,7 @@ class App extends React.Component {
                       direction="row"
                       justify="center"
                       alignItems="flex-end">
-                      <Grid item style={{color: "#f5f5f5"}}><p>Danny Kimble &copy;</p></Grid>
+                      <Grid item style={{color: "#f5f5f5"}}><p>Danny the DM &copy;</p></Grid>
                     </Grid>
                   </Wrapper>
                 </Container>
