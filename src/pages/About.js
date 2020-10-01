@@ -36,9 +36,8 @@ export default function About() {
                 </Grid>
                 <Grid item sm={8}>
                     <Paper className={classes.myText}>
-                        <p>My name is Danny Kimble. I am a certified Full Stack Developer who has completed the University of Oregon Coding Bootcamp. I am also currently studying Computer Science at Portland Community College (PCC) and have been since the fall of 2018. I love computers and I love coding. One of my favorite things about this line of work is learning and implementing new technologies.</p>
-                        <p>I started attending PCC while I was employed full time with the United States Postal Service. Once the Bootcamp began I quit my job, but maintained my status as a full time student at PCC while also taking on all the duties of a stay at home dad. I'm not afraid to work hard in any arena and I can handle pressure from multiple different angles simultaneously. I learn fast and I would make an excellent addition to any team. Take a look at my portfolio!</p>
-                        <p>Technical Skills: HTML, CSS, JavaScript, Node, Express, MySQL, Sequelize, MongoDB, Mongoose, React, Redux, JQuery, Handlebars, GitHub, Git, Slack</p>
+                        <p>My name is Danny and I could be your next Game Master! I love tabletop RPGs and have since I was a preteen. I have been the Dugeon Master for three different Dungeons & Dragons groups now. I excell at teaching the game to new players.</p>
+                        <p>I am a very relaxed and friendly guy. I know people want to have fun playing these games and I'm here to make them feel like heroes. If you play my games, you won't have to worry about me trying to kill you, unless of course, that's what you want.</p>
                     </Paper>
                 </Grid>
             </Grid>
