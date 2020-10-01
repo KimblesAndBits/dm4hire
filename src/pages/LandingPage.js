@@ -30,11 +30,11 @@ function LandingPage(props) {
                     component="button"
                     className={classes.nameButton}
                     onClick={() => props.handlePageChange("HomeMenu")}>
-                    Danny Kimble
+                    DANNY THE DM
                 </Typography>
             </Grid>
             <Grid item xl={12} className={classes.whiteText}>
-                <p>Full-Stack Developer</p>
+                <p>Game Master for Hire</p>
             </Grid>
             <Grid item xl={12} className={classes.whiteText}>
                 <p>Click my name</p>
