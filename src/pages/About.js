@@ -4,8 +4,12 @@ import {
     Container,
     Grid,
     CardMedia,
-    Paper
+    Paper,
+    Card,
+    CardContent,
+    Typography
 } from "@material-ui/core";
+
 
 const useStyles = makeStyles(theme => ({
     myImage: {
@@ -29,18 +33,62 @@ export default function About() {
                     <CardMedia
                         className={classes.myImage}
                         component="img"
-                        alt="Danny Kimble"
+                        alt="Sons of Ivaldi"
                         height="auto"
                         image={require("../images/me.jpg")}
-                        title="Danny Kimble" />
+                        title="Sons of Ivaldi" />
                 </Grid>
                 <Grid item sm={8}>
-                    <Paper className={classes.myText}>
-                        <p>My name is Danny and I could be your next Game Master! I love tabletop RPGs and have since I was a preteen. I have been the Dugeon Master for three different Dungeons & Dragons groups now. I excell at teaching the game to new players.</p>
-                        <p>I am a very relaxed and friendly guy. I know people want to have fun playing these games and I'm here to make them feel like heroes. If you play my games, you won't have to worry about me trying to kill you, unless of course, that's what you want.</p>
-                    </Paper>
+                    <Grid item>
+                        <Paper className={classes.myText}>
+                            <p>We are Sons of Ivaldi. We're a small indie development company. We are currently working on
+                            two games and always thinking of new ideas!</p>
+                        </Paper>
+                    </Grid>
+                    <Grid
+                        container
+                        direction="row"
+                        justify="space-evenly"
+                        alignItems="center"
+                        spacing={3}>
+                        <Grid item sm={6}>
+                            <Card className={classes.root}>
+                                <CardMedia
+                                    className={classes.myImage}
+                                    component="img"
+                                    image={require("../images/me.jpg")}
+                                    title="Danny"
+                                    margin={0}
+                                />
+                                <CardContent>
+                                    <Typography variant="body2" color="textSecondary" component="p">
+                                        My name is Danny. I'm the lead developer and founder of Sons of Ivaldi. I have loved
+                                        video games my whole life, and while I have been attending school to get a degree in
+                                        computer science, this pandemic has proved that nothing is certain and now is the time
+                                        to try out your crazy ideas. This is mine and I'm so excited.
+                                </Typography>
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                        <Grid item sm={6}>
+                            <Card className={classes.root}>
+                                <CardMedia
+                                    className={classes.myImage}
+                                    component="img"
+                                    image={require("../images/me.jpg")}
+                                    title="Michael"
+                                    margin={0}
+                                />
+                                <CardContent>
+                                    <Typography variant="body2" color="textSecondary" component="p">
+                                        Michael is the lead artist and art director. He'll write something here.
+                                </Typography>
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                    </Grid>
                 </Grid>
             </Grid>
-        </Container>
+        </Container >
     )
 }
